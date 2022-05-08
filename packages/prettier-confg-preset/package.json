@@ -1,6 +1,6 @@
 {
   "name": "@xieyezi/prettier-config-preset",
-  "version": "1.0.0",
+  "version": "0.0.9",
   "description": "xieyezi prettier config preset",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
