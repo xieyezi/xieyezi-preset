@@ -1,0 +1,29 @@
+{
+  "name": "@xieyezi/prettier-config-preset",
+  "version": "1.0.0",
+  "description": "changan auto prettier config preset",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "index.d.ts",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "prepublishOnly": "pnpm run build",
+    "build": "tsup index.ts --format cjs,esm --clean"
+  },
+  "author": "xieyezi",
+  "license": "MIT",
+  "peerDependencies": {
+    "prettier": ">=2.6.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "tsup": "^5.12.4",
+    "typescript": "^4.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

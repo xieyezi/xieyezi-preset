@@ -1,0 +1,31 @@
+{
+  "name": "@xieyezi/commit-config-preset",
+  "version": "1.0.0",
+  "description": "changan auto commit config preset",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "index.d.ts",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "prepublishOnly": "pnpm run build",
+    "build": "tsup index.ts --format cjs,esm --clean"
+  },
+  "author": "xieyezi",
+  "license": "MIT",
+  "peerDependencies": {
+    "@commitlint/cli": ">=16.2.4",
+    "commitizen": ">=4.2.4",
+    "commitlint-config-cz": ">=0.13.3",
+    "cz-customizable": ">=6.3.0"
+  },
+  "devDependencies": {
+    "tsup": "^5.12.4",
+    "typescript": "^4.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
