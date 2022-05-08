@@ -1,6 +1,6 @@
 {
   "name": "@xieyezi/eslint-config-react",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "react eslint config",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
