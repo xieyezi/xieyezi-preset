@@ -1,6 +1,6 @@
 {
   "name": "@xieyezi/eslint-config-typescript",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "typescript and eslint config",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

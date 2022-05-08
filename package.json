@@ -1,6 +1,6 @@
 {
   "name": "@xieyezi/preset-monorepo",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "private": "true",
   "description": "common eslint and prettier preset and so on for xieyezi",
   "main": "index.js",
