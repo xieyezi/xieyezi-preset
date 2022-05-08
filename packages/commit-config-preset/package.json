@@ -1,7 +1,7 @@
 {
   "name": "@xieyezi/commit-config-preset",
   "version": "1.0.0",
-  "description": "changan auto commit config preset",
+  "description": "xieyezi commit config preset",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "index.d.ts",

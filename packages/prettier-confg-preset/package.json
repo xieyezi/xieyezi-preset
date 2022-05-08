@@ -1,7 +1,7 @@
 {
   "name": "@xieyezi/prettier-config-preset",
   "version": "1.0.0",
-  "description": "changan auto prettier config preset",
+  "description": "xieyezi prettier config preset",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "index.d.ts",
