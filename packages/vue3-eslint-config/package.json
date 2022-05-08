@@ -1,6 +1,6 @@
 {
   "name": "@xieyezi/eslint-config-vue3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue3 eslint config",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
