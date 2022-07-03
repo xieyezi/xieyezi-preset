@@ -1,6 +1,6 @@
 {
   "name": "@xieyezi/utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "xieyezi utils",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
